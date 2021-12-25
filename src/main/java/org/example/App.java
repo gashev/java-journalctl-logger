@@ -9,6 +9,7 @@ public class App
     public static void main( String[] args )
     {
         Logger logger = new Logger();
-        logger.info( "Hello World!" );
+        logger.info("Hello World!");
+        logger.error("Test error.");
     }
 }
